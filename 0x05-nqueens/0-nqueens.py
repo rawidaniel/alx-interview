@@ -41,6 +41,7 @@ def n_q(t_arr, arr, col, i, n):
 
     return arr
 
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
@@ -48,7 +49,7 @@ if __name__ == "__main__":
 
     try:
         n = int(sys.argv[1])
-    except:
+    except BaseException:
         print("N must be a number")
         exit(1)
 
