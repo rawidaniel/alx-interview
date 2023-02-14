@@ -16,4 +16,4 @@ def rotate_2d_matrix(matrix):
     copy_matrix = [row[:] for row in matrix]
     for i in range(0, n):
         for j in range(n - 1, -1, -1):
-            matrix[j][n - 1 -i] = copy_matrix[i][j]
+            matrix[j][n - 1 - i] = copy_matrix[i][j]
